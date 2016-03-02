@@ -191,9 +191,6 @@ class Hardware(TCPClient):
                     Thread(target=self.decoratefunc[func][0], kwargs=copy_args).start()
 
 
-    def debug_route(self):
-        print('LEST FUNC: ', self.decoratefunc)
-
     def route(self, **kwargs):
         """
         """
