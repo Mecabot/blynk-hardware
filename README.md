@@ -2,10 +2,10 @@
 
 
 Install blynk client:
+
     blynk = blynklib.Hardware()
 
 Decorator @blynk.route(name, pin):
-
 
     name - pin name, example: vr, vw, dw,dr,ar,aw
 
