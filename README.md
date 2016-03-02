@@ -1,1 +1,1 @@
-# blynk-harware
+# blynk-hardware
