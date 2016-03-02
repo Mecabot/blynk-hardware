@@ -19,6 +19,13 @@ Decorator @blynk.timer(timer):
 Send to server:
 
     blynk.send(name, pin, value)
+    
+    blynk.sendarray({ 'vw': [(pin, val), (pin, val), (pin, val)],  })
+    
+    blynk.sendarray({ 'aw': [(pin, val), (pin, val), (pin, val)],  })
+    
+    blynk.sendarray({ 'dw': [(pin, val), (pin, val), (pin, val)],  })
+    
 
 
 Connect to Server BLYNK (True, False):
