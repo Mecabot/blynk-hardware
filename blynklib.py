@@ -176,8 +176,18 @@ class Hardware(TCPClient):
     def _unknown(msg_type, data):
         print('Type = %d, data = ' % msg_type, data)
 
+    def sendarray(self, arr):
+        """
+        """
+        try:
+            for name, pin_value in arr.items():
+                for __p, __v in pin_value:
+                    self.send(name, __p, __v)
+        except:
+            print(sys.exc_info()[1])
+
     def send(self, name='vw', pin=1, value=0):
-        self.txframedata(MSG.HW,  MSG.tobuffer(name, pin, value))
+        self.txframedata(MSG.HW,  MSG.tobuffer(name, pin, str(value)))
 
     def onmsg(self, cmd, params):
 #        print('DEBUG: ', cmd, params)
