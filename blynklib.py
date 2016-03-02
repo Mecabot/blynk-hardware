@@ -194,10 +194,6 @@ class Hardware(TCPClient):
     def debug_route(self):
         print('LEST FUNC: ', self.decoratefunc)
 
-    def run_func(self, name):
-        if name in self.decoratefunc:
-            return self.decoratefunc[name][0](**self.decoratefunc[name][1])
-
     def route(self, **kwargs):
         """
         """
