@@ -16,6 +16,10 @@ Decorator @blynk.timer(timer):
 
     timer - how many milliseconds to execute a function
 
+Send to server:
+
+    blynk.send(name, pin, value)
+
 
 Connect to Server BLYNK (True, False):
 
