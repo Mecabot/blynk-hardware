@@ -1,3 +1,4 @@
+#!/usr/bin/env python3.4
 __author__ = 'kalipsoaqua'
 
 import blynklib
