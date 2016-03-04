@@ -1,6 +1,8 @@
 # blynk-hardware
 
 
+Works for Python 3
+
 Install blynk client:
 
     blynk = blynklib.Hardware()
