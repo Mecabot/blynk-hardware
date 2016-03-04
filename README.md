@@ -1,7 +1,7 @@
 # blynk-hardware
 
 
-Works for Python 3
+Works on Python 3
 
 Install blynk client:
 
