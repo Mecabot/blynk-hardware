@@ -1,4 +1,4 @@
-# blynk-hardware
+# blynk-virtual-hardware
 
 
 Works on Python 3
