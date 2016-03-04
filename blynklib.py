@@ -43,7 +43,6 @@ class TCPClient(object):
         """
         """
         print('Connected %s:%d' % (self.__Server, self.__Port))
-        self.close()
         self.__count_msg_id = 0
         try:
             self.__Socket = socket.create_connection((self.__Server, self.__Port), timeout)
